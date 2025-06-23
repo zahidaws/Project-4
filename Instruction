@@ -2,4 +2,4 @@ create a repo --> create index.js, package.json, .github/workflows/ci-cd.yml, Do
 repo --> setting --> secret and varibles --> add username of dockerhub and another secret add password of dockerhub
 repo --> go to action and see if build is success then
 download docker and install 
-pull image from dockerhub and run then via localhost:300 check you app
+pull image from dockerhub and run then via localhost:3000 check you app
