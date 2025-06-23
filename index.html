@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Engineer Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- AOS Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+  .hero-bg {
+    background-image: url('https://cdn.wallpapersafari.com/64/77/iJAYES.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+</style>
+
+</head>
+
+<body class="bg-black green text-gray-800">
+
+  <header class="bg-gray-900 text-white py-6">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">DevOps Engineer</h1>
+      <nav class="space-x-4">
+        <a href="#skills" class="hover:underline">Skills</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="py-24 px-4 text-center text-white hero-bg relative" data-aos="fade-up">
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  <div class="relative z-10">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Zahid 👋</h2>
+    <p class="text-lg max-w-2xl mx-auto">
+      I'm a DevOps Engineer passionate about building scalable infrastructure, automating workflows, and ensuring continuous delivery of high-quality software.
+    </p>
+  </div>
+</section>
+
+
+  <section id="skills" class="bg-white py-12 px-4" data-aos="fade-right">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-6">🔧 DevOps Skills & Tools</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker"/><p>Docker</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="Kubernetes"/><p>Kubernetes</p></div>
+        <div><img class="mx-auto h-12" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRxvq75acmFPbHS8fUA72GWURt2ctFcdnAQ&s" alt="AWS"/><p>AWS</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/terraform/7B42BC" alt="Terraform"/><p>Terraform</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="CI/CD"/><p>GitHub Actions</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/prometheus/E6522C" alt="Prometheus"/><p>Prometheus</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/grafana/F46800" alt="Grafana"/><p>Grafana</p></div>
+        <div><img class="mx-auto h-12" src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Linux Bash"/><p>Bash</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-12 px-4" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-6 text-white">🚀 Projects</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow" data-aos="zoom-in">
+          <h4 class="text-xl font-bold">CI/CD Pipeline with GitHub Actions</h4>
+          <p>Automated deployment of Node.js app to AWS EC2 using GitHub Actions and Terraform.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow" data-aos="zoom-in">
+          <h4 class="text-xl font-bold">Kubernetes Monitoring Stack</h4>
+          <p>Prometheus + Grafana integration for observability and real-time metrics in K8s cluster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-black-600 text-white py-12 px-4" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6">📬 Get In Touch</h3>
+      <form action="https://formspree.io/f/manjdrno" method="POST" class="space-y-4 max-w-md mx-auto text-left">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 rounded bg-gray-100 text-gray-900" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 rounded bg-gray-100 text-gray-900" />
+        <textarea name="message" placeholder="Your Message" required class="w-full p-2 rounded bg-gray-100 text-gray-900"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+      <p class="mt-6">Or reach out via:</p>
+      <p>Email: <a href="mailto:xaidahm99@gmail.com" class="underline">xaidahm99@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/zahid-ahmed-90662a248" target="_blank" class="underline">linkedin.com/in/zahid-ahmed-90662a248</a></p>
+      <p>GitHub: <a href="https://github.com/zahidaws" target="_blank" class="underline">github.com/zahidaws</a></p>
+      <zahidaws></zahidaws></a></p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2025 zahid DevOps. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
